@@ -19,7 +19,8 @@ const __dirname = path.resolve();
 app.use(cors({
     origin: [
         "http://localhost:5173",
-        "https://streamly-three-delta.vercel.app"
+        "https://streamly-three-delta.vercel.app",
+        "https://streamly-ten.vercel.app"
     ],
     credentials: true,
 }));
